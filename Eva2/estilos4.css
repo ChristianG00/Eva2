@@ -1,0 +1,195 @@
+
+/* Estilo general 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: rgb(144, 175, 0.765) 
+    
+}
+
+/* Estilo secciones */
+section {
+    padding: 20px;
+    margin-bottom: 20px; /* Agregar margen inferior*/
+    border-bottom: 20px solid rgb(12, 90, 245);
+    min-width: 400px; /*Establece el tamaño*/
+}
+
+/* Estilo títulos */
+h2, h3 {
+    color: #ff4d00; 
+}
+
+#titulo2, h1, #firma, p, #gracias{
+    background-color: #79bf78; /*Pagina Ayuda*/
+    text-align: center;
+}
+
+h1 {
+    color: rgb(227, 21, 21);
+    background-color: rgb(16, 187, 16);
+    border: 10px solid rgb(12, 90, 245); 
+    display: inline-block; /* Bloque de linea al encabezado*/
+    padding: 20px;
+    border-radius: 90px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/Buying-Buzz-Cola-From-The-Kwik-E-Mart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*Ajusta el tamaño de img de fondo*/
+    background-position: center ;
+    padding: 10px; /* Añade relleno */
+    min-width: 420px; /* Establece el ancho minimo de la seccion */
+    
+}
+#quienes-somos {
+    background-color: #79bf78;
+}
+#quienes-somos p, h2 {
+    text-align: center;
+}
+
+#quienes-somos p {
+    color: black;
+    background-color: #55d60000;
+}
+
+/* Estilo img */
+img {
+    max-width: 100%; /* Establece el ancho maximo al 100% */
+    height: auto; /* Mantiene la proporcion de aspecto */
+    display: block; /* sean elementos de bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+#productos {
+    background-image: url(https://img.freepik.com/vector-premium/vector-fondo-ilustracion-nubes_574033-22.jpg?w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+}
+
+/* Estilo tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Combina los bordes de las celdas de la tabla */
+    margin-bottom: 20px; /* Agrega margen inferior para separar las tablas */
+    background-color: rgba(247, 243, 11, 0.566);
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 8px;
+}
+
+/* Estilo para listas */
+#productos ul {
+    background-color: rgba(254, 254, 1, 0.671);
+    border-radius: 10px; /* Establece el radio de borde de la lista */
+    display: inline-block;  /* Hace que la lista se comporte como un bloque en linea */
+    
+}
+
+/* Estilo direccion de contacto */
+#contacto {
+    background-image: url(https://i0.wp.com/altapeli.com/wp-content/uploads/2016/04/jameswoodssimpsons.png?resize=591%2C366&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center; /* Centrar contenido horizontal */
+    display: flex; /* Establece felxibilidad */
+    flex-direction: column; /* Establece eje */
+    align-items: center;
+    font-size: 25px;
+}
+#contacto h2, address, #contacto p {
+    background-color: rgba(5, 5, 5, 0.696);
+    border-radius: 5px; /* Establece el radio del borde */
+}
+
+#contacto address, #contacto p {
+    color: white;
+}
+
+/* Estilo formulario de contacto */
+#mensaje-ayuda form {
+    margin-top: 50px; /* Ajusta margen superior */
+    max-width: 500px; /* Establece el ancho maximo */
+    margin: 0 auto; /* Centra horizontal */
+}
+
+#mensaje-ayuda {
+    background-image: url(https://media.istockphoto.com/id/1308626092/es/vector/rosquillas-con-esmalte-rosa-y-espolvoreados-de-colores-sobre-el-fondo-del-cielo-azul-patr%C3%B3n.jpg?s=612x612&w=0&k=20&c=3iOBR9L_LJredrAvxOGpRA5OU67hH9kQVwn8o1gU8kU=);
+}
+
+#mensaje-ayuda p, label {
+    text-align: center;
+    background-position: center;
+    display: inline-block; /* sean bloques en linea*/
+}
+label, #mensaje-ayuda p {
+    background-color: rgba(209, 209, 27, 0.861);
+    border-radius: 70px;
+}
+
+label {
+    display: block; /* sean bloques */
+    margin-bottom: 5px; /* Agrega margen inferior */
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Establece el ancho al 100% */
+    padding: 8px; /* Espaciado */
+    margin-bottom: 10px; /* Agrega margen */
+    border: 1px solid #a80d0d;
+}
+
+input[type="submit"] {
+    background-color: #ff4d00;
+    color: #fff;
+    padding: 10px 20px;  /* Añade espaciado */
+    border: none; /* Quitar el borde */
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+input[type="submit"]:hover {
+    background-color: #08e304; /* Permite ver verde Enviar */
+}
+
+/* Estilo menu de navegacion */
+nav {
+    text-align: left; 
+    padding: 10px; /* Añade algo de espacio alrededor del menu */
+    min-width: 420px;
+    background-color: rgba(178, 216, 6, 0.765);
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0 auto; /* Eliminar margen predeterminado de la lista */
+    padding: 0; /* Elimina relleno predeterminado de la lista */
+    
+}
+
+nav ul li {
+    display: inline; /* Mostrarnelementos de lista en linea */
+    margin-left: 20px; /* Añade espacio entre los elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #000000; 
+}
+
+

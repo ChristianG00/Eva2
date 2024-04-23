@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwik-E-Mart de Apu</title>
+    <link rel="stylesheet" href="estilos4.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quienes-somos">Quienes Somos</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#mensaje-ayuda">Ayuda</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Seccion Home -->
+    <section id="home">
+        <h1>Bienvenido al Kwik-E-Mart de Apu</h1>
+    </section>
+
+    <!-- Seccion Quienes-Somos -->
+    <section id="quienes-somos">
+        <h2>Quienes Somos</h2>
+        <p>Somos el mejor mini-mercado de Springfield, fundado por Apu Nahasapeemapetilon.</p>
+        <img src="https://s.t13.cl/sites/default/files/styles/manualcrop_850x475/public/t13/field-imagen/2017-11/1510790896-apus.jpg.jpeg?itok=FjF7nKyV" alt="Apu" width="500">
+    </section>
+
+    <!-- Seccion Productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Comprar</th>
+            </tr>
+            <tr>
+                <td> 
+                    <a href="rosca.png"><img src="rosca.png" alt="rosquilla" width="35" title="rosquilla"></a>
+
+                </td>
+                <td>Donas</td>
+                <td>$1500</td>
+                <td><button onclick="alert('Compro una rosquilla')">Comprar</button></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.amazon.com/-/es/Bebida-energ%C3%A9tica-Moe-Flaming-Simpsons/dp/B000U0902O"><img src="https://scontent.fscl36-1.fna.fbcdn.net/v/t1.6435-9/96363549_834796103676540_1798472037136596992_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LT7SWokJuOoAb4A4mal&_nc_ht=scontent.fscl36-1.fna&oh=00_AfDKrLSyRzTi0EHkNMolmLYtE3-UUiG9YUgrECs53CVVUA&oe=664ABE76" alt="enegysimpson" width="50" title="Energysimpson"></a></td>
+                <td>Bebidas Energeticas</td>
+                <td>$2200</td>
+                <td><button onclick="alert('Compro una Energysimpson')">Comprar</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://i.ytimg.com/vi/1pgVAWt732k/maxresdefault.jpg" alt="loto" width="65" title="Suerte Simpson"></td>
+                <td>Billete loteria</td>
+                <td>$3000</td>
+                <td><button onclick="alert('Compro un Billete de Suerte Simpson')">Comprar</button></td>
+            </tr>
+
+        </table>
+        <h3>Ofertas Especiales:</h3>
+        <ul>
+            <li>Compra 2 cervezas Duff y llevate una tercera gratis.</li>
+            <li>Descuento del 10% en todos los productos de limpieza.</li>
+        </ul>
+    </section>
+
+         <!-- Seccion Mensaje-Ayuda -->
+    <section id="mensaje-ayuda">
+        <p>¿Necesitas Ayuda?  Escribenos</p>
+        <form action="ayuda.html" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="3" cols="50" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- Seccion Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarnos en:</p>
+        <address>
+            123 Calle Principal,<br>
+            Springfield<br>
+            Teléfono: 555-1234<br>
+            Email: info@kwik-e-mart.com
+        </address>
+    </section>
+
+</body>
+</html>
